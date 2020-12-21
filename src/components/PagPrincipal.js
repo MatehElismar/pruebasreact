@@ -16,7 +16,7 @@ function PagPrincipal() {
       <h1>
         Hola, Soy Alberto Peral</h1>
       <p>Me gusta crear con tecnologías web.</p>
-      <div class="link-portfolio">
+      <div className="link-portfolio">
 
         <Link
           to='/prueba'
