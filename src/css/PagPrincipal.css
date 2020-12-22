@@ -76,6 +76,10 @@ video {
     font-size: 15px;
   }
 
+  .hero-container {
+    height: 90vh;
+  }
+
   .btn-mobile {
     display: block;
     text-decoration: none;
@@ -94,7 +98,6 @@ video {
   .link-portfolio {
     width: 300px;
     text-align: center;
-    margin-top: 50px;
     font-size: 20px;
 }
 }
