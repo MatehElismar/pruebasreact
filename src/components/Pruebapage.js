@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 /* import { Button } from './Button'; */
-import './Pruebapage.css';
+import '../css/Pruebapage.css';
 
 const element = "Hola";
 const user = {
