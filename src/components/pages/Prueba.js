@@ -4,12 +4,14 @@ import '../../App.css';
 import HeroSection from '../PagPrincipal'; */
 import Pruebapage from '../Pruebapage';
 import PagPrincipal from '../PagPrincipal'
+import Footer from '../Footer';
 
 export default function Prueba() {
     return <>
     
     <Pruebapage />
     <PagPrincipal />
+    <Footer />
     
   </>
   }

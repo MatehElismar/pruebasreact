@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Footer.css';
 import { Link } from 'react-router-dom';
+import ReactTooltip from 'react-tooltip';
 
 function Footer() {
   return (
@@ -63,12 +64,9 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              PERALSTUDIO
-              <img className='fav-navbar' src={"/favicon.ico"} alt='logonav'/>
-            </Link>
+            <small className='website-rights'>    PERALSTUDIO © 2020</small>
           </div>
-          <small className='website-rights'>    PERALSTUDIO © 2020</small>
+
           <div className='social-icons'>
             {/* <Link
               class='social-icon-link facebook'
@@ -95,6 +93,7 @@ function Footer() {
               <i class='fab fa-youtube' />
             </Link> */}
             <Link
+              data-tip data-for='tooltiptwitter'
               className='social-icon-link twitter'
               to='/'
               target='_blank'
@@ -102,7 +101,11 @@ function Footer() {
             >
               <i className='fab fa-twitter' />
             </Link>
+            <ReactTooltip id='tooltiptwitter'>
+              Twitter
+            </ReactTooltip>
             <Link
+              data-tip data-for='tooltiplinkedin'
               className='social-icon-link twitter'
               to='/'
               target='_blank'
@@ -110,7 +113,11 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </Link>
+            <ReactTooltip id='tooltiplinkedin'>
+              Linkedin
+            </ReactTooltip>
             <Link
+              data-tip data-for='tooltipgithub'
               className='social-icon-link twitter'
               to={{ pathname: "https://github.com/PeralStudio/" }}
               target='_blank'
@@ -118,6 +125,9 @@ function Footer() {
             >
               <i className='fab fa-github' />
             </Link>
+            <ReactTooltip id='tooltipgithub'>
+              Github
+            </ReactTooltip>
           </div>
         </div>
       </section>

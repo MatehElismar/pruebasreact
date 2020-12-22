@@ -139,7 +139,6 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
-  margin-right: 20px;
 }
 
 .social-logo {
@@ -148,7 +147,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -183,9 +182,13 @@
 
   }
 
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+
   .social-media-wrap {
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 85px;
   }
 }
 
