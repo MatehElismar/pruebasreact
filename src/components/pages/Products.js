@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import PagPrincipal from '../PagPrincipal';
+import Footer from '../Footer';
 
 export default function Products() {
-  return <h1 className='products'>PRODUCTOS</h1>;
+  return (
+  <>
+  <PagPrincipal />
+  <Footer />
+  </>
+  );
 }
