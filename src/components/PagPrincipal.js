@@ -22,7 +22,7 @@ function PagPrincipal() {
           to='/prueba'
           className='linkPortfolio'
         >
-          Mira los últimos proyectos en los que he estado trabajando.
+          Mira los últimos proyectos en los que he estado trabajando{" "}
                 <img src="images/projects-arrow.svg" alt="Projects Arrow" />
         </Link>
 

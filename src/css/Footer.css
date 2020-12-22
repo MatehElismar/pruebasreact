@@ -19,9 +19,14 @@
   width: 40px;
 }
 
-.fa-twitter:before, .fa-linkedin:before, .fa-github:before {
+.fa-twitter, .fa-linkedin, .fa-github, .fa-envelope, .fa-whatsapp {
   margin: 5px;
 }
+
+.fa-twitter:hover, .fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover, .fa-whatsapp:hover {
+  color: #5500aa;
+}
+
 
 .footer-subscription {
   

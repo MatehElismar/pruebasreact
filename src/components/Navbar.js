@@ -24,12 +24,14 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+  const iconNav = <img className='fav-navbar' src={"/favicon.ico"} alt='iconNav' />;
+
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img className='fav-navbar' src={"/favicon.ico"} alt='logonav'/>
+            {iconNav}
           PERALSTUDIO 
             
           </Link>

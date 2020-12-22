@@ -92,7 +92,7 @@ function Footer() {
             >
               <i class='fab fa-youtube' />
             </Link> */}
-            <Link
+            {/* <Link
               data-tip data-for='tooltiptwitter'
               className='social-icon-link twitter'
               to='/'
@@ -115,7 +115,7 @@ function Footer() {
             </Link>
             <ReactTooltip id='tooltiplinkedin'>
               Linkedin
-            </ReactTooltip>
+            </ReactTooltip> */}
             <Link
               data-tip data-for='tooltipgithub'
               className='social-icon-link twitter'
@@ -128,6 +128,32 @@ function Footer() {
             <ReactTooltip id='tooltipgithub'>
               Github
             </ReactTooltip>
+            <Link
+              data-tip data-for='tooltipemail'
+              className='social-icon-link email'
+              to={{ pathname: "mailto:info@peralstudio.com" }}
+              target='_blank'
+              aria-label='Email'
+            >
+              <i className="fas fa-envelope"></i>
+            </Link>
+            <ReactTooltip id='tooltipemail'>
+              Email
+            </ReactTooltip>
+            <Link
+              data-tip data-for='tooltipwhatsapp'
+              className='social-icon-link whatsapp'
+              to={{ pathname: "https://wa.me/34668568818?" }}
+              target='_blank'
+              aria-label='whatsapp'
+            >
+              <i className="fab fa-whatsapp"></i>
+            </Link>
+            <ReactTooltip id='tooltipwhatsapp'>
+              WhatsApp
+            </ReactTooltip>
+
+            
           </div>
         </div>
       </section>
