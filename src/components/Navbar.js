@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 /* import { Button } from './Button'; */
 import { Link } from 'react-router-dom';
+import ReactTooltip from 'react-tooltip';
 import '../css/Navbar.css';
 
 function Navbar() {
@@ -44,33 +45,18 @@ function Navbar() {
                 Inicio
               </Link>
             </li>
+            
             <li className='nav-item'>
               <Link
-                to='/SobreMi'
+                to='/portfolio'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Sobre Mí
+                Portfolio
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/productos'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Productos
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/prueba'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Prueba
-              </Link>
-            </li>
+            
+            
 
             {/* <li>
               <Link
@@ -82,6 +68,44 @@ function Navbar() {
               </Link>
             </li> */}
           </ul>
+          <div className='icons-navbar'>
+          <Link
+              data-tip data-for='tooltipgithub'
+              className='social-icon-link twitter'
+              to={{ pathname: "https://github.com/PeralStudio/" }}
+              target='_blank'
+              aria-label='Github'
+            >
+              <i className='fab fa-github' />
+            </Link>
+            <ReactTooltip backgroundColor="#400180" id='tooltipgithub'>
+              Github
+            </ReactTooltip>
+            <Link
+              data-tip data-for='tooltipemail'
+              className='social-icon-link email'
+              to={{ pathname: "mailto:info@peralstudio.com" }}
+              target='_blank'
+              aria-label='Email'
+            >
+              <i className="fas fa-envelope"></i>
+            </Link>
+            <ReactTooltip backgroundColor="#400180" id='tooltipemail'>
+              Email
+            </ReactTooltip>
+            <Link
+              data-tip data-for='tooltipwhatsapp'
+              className='social-icon-link whatsapp'
+              to={{ pathname: "https://wa.me/34668568818?" }}
+              target='_blank'
+              aria-label='whatsapp'
+            >
+              <i className="fab fa-whatsapp"></i>
+            </Link>
+            <ReactTooltip backgroundColor="#400180" id='tooltipwhatsapp'>
+              WhatsApp
+            </ReactTooltip>
+            </div>
           {/* {button && <Button buttonStyle='btn--outline'>Entrar</Button>} */}
         </div>
       </nav>

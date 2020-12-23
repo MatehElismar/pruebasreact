@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import SobreMi from './components/pages/SobreMi';
+import Portfolio from './components/pages/Portfolio';
 import Products from './components/pages/Products';
 import Prueba from './components/pages/Prueba';
 import SignUp from './components/pages/SignUp';
@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/sobremi' component={SobreMi} />
+          <Route path='/portfolio' component={Portfolio} />
           <Route path='/productos' component={Products} />
           <Route path='/prueba' component={Prueba} />
           <Route path='/sign-up' component={SignUp} />

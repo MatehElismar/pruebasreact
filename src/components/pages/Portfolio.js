@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css';
-import SobremiPag from '../SobremiPag';
+import PortfolioPag from '../PortfolioPag';
 
 export default function Sobremi() {
   return <>
-  <SobremiPag />
+  <PortfolioPag />
   </>;
 }

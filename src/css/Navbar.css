@@ -93,6 +93,10 @@
   display: none;
 }
 
+.icons-navbar {
+  display:flex;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -182,4 +186,45 @@
     color: #242424;
     transition: 250ms;
   }
+
+  .icons-navbar {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 30px;
+    margin-top: -90px;
+  }
+
+  .hero-container > p {
+    font-size: 15px;
+  }
+
+  
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .img-principal {
+    width: 150px;
+    height: 180px;
+    margin-bottom: 100px;
+  }
+
+  .linkPortfolio {
+    text-align: center;
+    font-size: 13px;
+}
+
+.icons-navbar {
+  display:none;
+}
 }
