@@ -1,4 +1,5 @@
 import React from 'react';
+import BackToTop from 'react-easy-back-to-top';
 import '../App.css';
 import '../css/Portfolio.css';
 
@@ -410,7 +411,18 @@ function SobremiPag() {
           </div>
           <br /><br /><br />
         </main>
-        
+        <BackToTop
+      backgroundColor="#5500aa"
+      position={{ right: "5%", bottom: "5%" }}
+      hover={{ backgroundColor: "#440088", color: "white" }}
+      transition="all 0.5s"
+      showOnDistance={300}
+      borderRadius={16}
+      opacity="1"
+      color="white"
+      fontSize="24px"
+      icon="fas fa-arrow-up"
+    />
         {/* JS */}
       </div>
 
