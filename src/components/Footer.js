@@ -125,7 +125,7 @@ function Footer() {
             >
               <i className='fab fa-github' />
             </Link>
-            <ReactTooltip id='tooltipgithub'>
+            <ReactTooltip backgroundColor="#400180" id='tooltipgithub'>
               Github
             </ReactTooltip>
             <Link
@@ -137,7 +137,7 @@ function Footer() {
             >
               <i className="fas fa-envelope"></i>
             </Link>
-            <ReactTooltip id='tooltipemail'>
+            <ReactTooltip backgroundColor="#400180" id='tooltipemail'>
               Email
             </ReactTooltip>
             <Link
@@ -149,7 +149,7 @@ function Footer() {
             >
               <i className="fab fa-whatsapp"></i>
             </Link>
-            <ReactTooltip id='tooltipwhatsapp'>
+            <ReactTooltip backgroundColor="#400180" id='tooltipwhatsapp'>
               WhatsApp
             </ReactTooltip>
 
