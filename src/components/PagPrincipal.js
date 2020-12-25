@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 /* import { Button } from './Button'; */
 import '../css/PagPrincipal.css';
+import '../css/Portfolio.css';
 
 
 
@@ -11,15 +12,14 @@ function PagPrincipal() {
     <div className='hero-container'>
       {/* <video src='/videos/video-2.mp4' autoPlay loop muted />  */}
       <div>
-        <img className='img-principal' src={"images/avatar.png"} alt='logopagPrin'/>
+        <img className='img-principal fadeIn ' src={"images/avatar.png"} alt='logopagPrin'/>
       </div>
-      <h1>
-        Hola, Soy Alberto Peral</h1>
+      <h1>Hola, Soy Alberto Peral</h1>
       <p>Me gusta crear con tecnologías web.</p>
       <div className="link-portfolio">
 
         <Link
-          to='/prueba'
+          to='/portfolio'
           className='linkPortfolio'
         >
           Mira los últimos proyectos en los que he estado trabajando{" "}
