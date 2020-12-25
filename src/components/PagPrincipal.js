@@ -12,7 +12,7 @@ function PagPrincipal() {
     <div className='hero-container'>
       {/* <video src='/videos/video-2.mp4' autoPlay loop muted />  */}
       <div>
-        <img className='img-principal fadeIn ' src={"images/avatar.png"} alt='logopagPrin'/>
+        <img className='img-principal fadeIn ' src={"images/avatar.png"} alt='logopagPrin' />
       </div>
       <h1>Hola, Soy Alberto Peral</h1>
       <p>Me gusta crear con tecnologías web.</p>
@@ -23,7 +23,7 @@ function PagPrincipal() {
           className='linkPortfolio'
         >
           Mira los últimos proyectos en los que he estado trabajando{" "}
-                <img src="images/projects-arrow.svg" alt="Projects Arrow" />
+          <img src="images/projects-arrow.svg" alt="Projects Arrow" />
         </Link>
 
       </div>

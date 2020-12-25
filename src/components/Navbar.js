@@ -33,8 +33,8 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             {iconNav}
-          PERALSTUDIO 
-            
+          PERALSTUDIO
+
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -45,7 +45,7 @@ function Navbar() {
                 Inicio
               </Link>
             </li>
-            
+
             <li className='nav-item'>
               <Link
                 to='/portfolio'
@@ -55,8 +55,8 @@ function Navbar() {
                 Portfolio
               </Link>
             </li>
-            
-            
+
+
 
             {/* <li>
               <Link
@@ -69,7 +69,7 @@ function Navbar() {
             </li> */}
           </ul>
           <div className='icons-navbar'>
-          <Link
+            <Link
               data-tip data-for='tooltipgithub'
               className='social-icon-link twitter'
               to={{ pathname: "https://github.com/PeralStudio/" }}
@@ -105,7 +105,7 @@ function Navbar() {
             <ReactTooltip backgroundColor="#400180" id='tooltipwhatsapp'>
               WhatsApp
             </ReactTooltip>
-            </div>
+          </div>
           {/* {button && <Button buttonStyle='btn--outline'>Entrar</Button>} */}
         </div>
       </nav>
