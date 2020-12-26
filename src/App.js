@@ -7,6 +7,7 @@ import Portfolio from './components/pages/Portfolio';
 import Products from './components/pages/Products';
 import Prueba from './components/pages/Prueba';
 import SignUp from './components/pages/SignUp';
+import firebaseAngularCompleteCrud from './components/pages/firebaseAngularCompleteCrud';
 
 
 function App() {
@@ -19,10 +20,11 @@ function App() {
           <Route path='/productos' component={Products} />
           <Route path='/prueba' component={Prueba} />
           <Route path='/sign-up' component={SignUp} />
+          <Route path='/firebase-angular-complete-crud' component={firebaseAngularCompleteCrud} />
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>
-      
+
     </>
   );
 }

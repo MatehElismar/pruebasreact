@@ -8,7 +8,6 @@ import '../css/Portfolio.css';
 function SobremiPag() {
   return (
     <div className='container-all'>
-      <div className="background" />
       <div className="grid">
 
         {/* Header */}
@@ -413,14 +412,14 @@ function SobremiPag() {
       </main>
       <BackToTop
         backgroundColor="#5500aa"
-        position={{ right: "5%", bottom: "5%" }}
+        position={{ right: "0%", bottom: "1%" }}
         hover={{ backgroundColor: "#440088", color: "white" }}
         transition="all 0.5s"
-        showOnDistance={300}
-        borderRadius={16}
+        showOnDistance={200}
+        borderRadius={10}
         opacity="1"
         color="white"
-        fontSize="24px"
+        fontSize="15px"
         icon="fas fa-arrow-up"
       />
       {/* JS */}
