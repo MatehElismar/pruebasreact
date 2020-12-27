@@ -3,7 +3,7 @@ import BackToTop from 'react-easy-back-to-top';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import '../css/chatAppRealtimeReactPage.css';
+import '../css/ChatAppRealtimeReact.css';
 
 function chatAppRealtimeReactPage() {
     return (
@@ -55,7 +55,7 @@ function chatAppRealtimeReactPage() {
                                 <p className="article__text">El proyecto aún está en desarrollo. Agregaré algunas características.</p>
                             </article>
                             <article className="article2">
-                                <h2 className="article__title">Tecnologías</h2>
+                                <h2 className="article__title2">Tecnologías</h2>
                                 <ul className="list">
                                     <li className="list__item">
                                         <img src="/icons/react.svg" alt="Git" />

@@ -7,9 +7,10 @@ import Portfolio from './components/pages/Portfolio';
 import Products from './components/pages/Products';
 import Prueba from './components/pages/Prueba';
 import SignUp from './components/pages/SignUp';
-import firebaseAngularCompleteCrud from './components/pages/firebaseAngularCompleteCrud';
-import chatAppRealtime from './components/pages/chatAppRealtimeReact';
+import FirebaseAngularCompleteCrud from './components/pages/FirebaseAngularCompleteCrud';
+import ChatAppRealtime from './components/pages/ChatAppRealtimeReact';
 import JuegoSnake from './components/pages/JuegoSnake';
+import SpotiApp from './components/pages/SpotiappApispotify';
 
 
 function App() {
@@ -22,9 +23,10 @@ function App() {
           <Route path='/productos' component={Products} />
           <Route path='/prueba' component={Prueba} />
           <Route path='/sign-up' component={SignUp} />
-          <Route path='/firebase-angular-complete-crud' component={firebaseAngularCompleteCrud} />
-          <Route path='/chat-app-realtime-react' component={chatAppRealtime} />
+          <Route path='/firebase-angular-complete-crud' component={FirebaseAngularCompleteCrud} />
+          <Route path='/chat-app-realtime-react' component={ChatAppRealtime} />
           <Route path='/juego-snake' component={JuegoSnake} />
+          <Route path='/spotiapp-apispotify' component={SpotiApp} />
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>

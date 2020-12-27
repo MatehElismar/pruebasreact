@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css';
-import CrudReact from '../firebaseAngularCompleteCrudPage';
+import CrudReact from '../FirebaseAngularCompleteCrudPage';
 import Footer2 from '../Footer2';
 
-function firebaseAngularCompleteCrud() {
+function FirebaseAngularCompleteCrud() {
     return (
         <>
             <CrudReact />
@@ -14,4 +14,4 @@ function firebaseAngularCompleteCrud() {
     );
 }
 
-export default firebaseAngularCompleteCrud;
+export default FirebaseAngularCompleteCrud;

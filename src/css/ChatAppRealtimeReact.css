@@ -19,14 +19,14 @@
     margin-bottom: 60px;
 }
 
+.article__title2 {
+    margin-bottom: 10px;
+}
+
 .pinned-message__text,
 .project-options {
     text-align: center;
     justify-content: center;
-}
-
-.header {
-    padding-top: 40px;
 }
 
 @media screen and (max-width: 1023px) {

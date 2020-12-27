@@ -1,3 +1,12 @@
 .footer {
     background-color: #1A1818;
 }
+
+.footer__options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    grid-column-gap: 50px;
+    column-gap: 50px;
+    margin-top: 10px;
+}

@@ -171,7 +171,7 @@ function SobremiPag() {
                           <img src="/icons/link.svg" alt="Link" />
                           <img src="/icons/github-logo.svg" alt="GitHub Logo" />
                         </div>
-                      </a><a href="spotiapp-apispotify.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                      </a><a href="/spotiapp-apispotify">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                     </div>
                   </div>
                 </div>

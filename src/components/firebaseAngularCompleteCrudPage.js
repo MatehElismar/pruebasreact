@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import BackToTop from 'react-easy-back-to-top';
 /* import { Link } from 'react-router-dom'; */
-import '../css/FirebaseAngularCompleteCrudPage.css';
+import '../css/FirebaseAngularCompleteCrud.css';
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -13,7 +13,7 @@ function CrudReact() {
     return (
         <div className="containerall">
             <div className="background" />
-            <div className="gridcrudfirebase">
+            <div className="grid">
                 <div className="blur" id="blur" />
                 <div className="grid-boundaries" />
 
@@ -62,7 +62,7 @@ function CrudReact() {
                                 <p className="article__text">El proyecto aún está en desarrollo. Agregaré algunas características.</p>
                             </article>
                             <article className="article2">
-                                <h2 className="article__title">Tecnologías</h2>
+                                <h2 className="article__title2">Tecnologías</h2>
                                 <ul className="list">
                                     <li className="list__item">
                                         <img src="/icons/angular.svg" alt="Git" />

@@ -1,8 +1,8 @@
 import React from 'react';
-import ChatAppReal from '../chatAppRealtimeReactPage';
+import ChatAppReal from '../ChatAppRealtimeReactPage';
 import Footer2 from '../Footer2';
 
-function chatAppRealtime() {
+function ChatAppRealtime() {
     return (
         <>
             <ChatAppReal />
@@ -11,4 +11,4 @@ function chatAppRealtime() {
     );
 }
 
-export default chatAppRealtime;
+export default ChatAppRealtime;
