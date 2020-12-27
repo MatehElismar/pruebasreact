@@ -328,7 +328,7 @@ function SobremiPag() {
                         <img src="/icons/link.svg" alt="Link" />
                         <img src="/icons/web.svg" alt="Previsualizar" />
                       </div>
-                    </a><a href="react-firebase-crud.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href="/react-firebase-crud">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
@@ -364,18 +364,18 @@ function SobremiPag() {
               <div className="main-screen">
                 <img src="/img-portfolio/peralstudio1.png" alt="Alberto Peral developer" />
               </div>
-              <div className="project__options">
-                <div className="options">
-                  {/*<a href="#" target="_blank">
+              {/* <div className="project__options">
+                 <div className="options">
+                  <a href="#" target="_blank">
                     <span>Código</span>
                     <div class="options__github">
                       <img src="assets/icons/link.svg" alt="Link">
                       <img src="assets/icons/github-logo.svg" alt="GitHub Logo">
                     </div>
-                  <a href="https://peralstudio.com/" target="_blank">Previsualizar<img src="assets/icons/menu-arrow.svg" alt="Preview arrow" class="options__icon"></a>*/}
+                  <a href="https://peralstudio.com/" target="_blank">Previsualizar<img src="assets/icons/menu-arrow.svg" alt="Preview arrow" class="options__icon"></a>
                   <a href="peralstudio.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
-                </div>
-              </div>
+                </div> 
+              </div> */}
             </div>
             <div className="project">
               <div className="screen-bar">
@@ -402,7 +402,7 @@ function SobremiPag() {
                       <img src="/icons/link.svg" alt="Link" />
                       <img src="/icons/web.svg" alt="Previsualizar" />
                     </div>
-                  </a><a href="web-e-commerce.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                  </a><a href="/web-e-commerce">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                 </div>
               </div>
             </div>
