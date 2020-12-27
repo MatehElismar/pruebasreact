@@ -97,7 +97,7 @@ function SobremiPag() {
                         <img src="/icons/link.svg" alt="Link" />
                         <img src="/icons/web.svg" alt="Previsualizar" />
                       </div>
-                    </a><a href="chat-app-realtime-react.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href="/chat-app-realtime-react">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
@@ -139,7 +139,7 @@ function SobremiPag() {
                           <img src="/icons/link.svg" alt="Link" />
                           <img src="/icons/web.svg" alt="Previsualizar" />
                         </div>
-                      </a><a href="juego-snake.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                      </a><a href="/juego-snake">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                     </div>
                   </div>
                 </div>

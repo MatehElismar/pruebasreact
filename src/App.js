@@ -8,6 +8,8 @@ import Products from './components/pages/Products';
 import Prueba from './components/pages/Prueba';
 import SignUp from './components/pages/SignUp';
 import firebaseAngularCompleteCrud from './components/pages/firebaseAngularCompleteCrud';
+import chatAppRealtime from './components/pages/chatAppRealtimeReact';
+import JuegoSnake from './components/pages/JuegoSnake';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path='/prueba' component={Prueba} />
           <Route path='/sign-up' component={SignUp} />
           <Route path='/firebase-angular-complete-crud' component={firebaseAngularCompleteCrud} />
+          <Route path='/chat-app-realtime-react' component={chatAppRealtime} />
+          <Route path='/juego-snake' component={JuegoSnake} />
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>

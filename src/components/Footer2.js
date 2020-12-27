@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/footer2.css';
+import '../css/Footeralt.css';
 
 
 
@@ -40,7 +40,7 @@ function Footer2() {
                             </a>
                         </li>
                         <li className="social-menu__item">
-                            <a className="linkedin slideUp delay-6" href="https://wa.me/34668568818?" target="_blank" rel="noopener noreferrer">
+                            <a className="linkedin slideUp delay-6" href="https://wa.me/34668568818" target="_blank" rel="noopener noreferrer">
                                 <span>WhatsApp</span>
                                 <div className="social-menu__icon">
                                     <img src="icons/link.svg" alt="Link" />
