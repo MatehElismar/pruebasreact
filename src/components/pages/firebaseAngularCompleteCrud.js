@@ -7,8 +7,6 @@ function FirebaseAngularCompleteCrud() {
     return (
         <>
             <CrudReact />
-            {/* <Cards />
-      <Footer /> */}
             <Footer2 />
         </>
     );
