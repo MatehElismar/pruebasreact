@@ -86,7 +86,7 @@ function SpotiappApispotifypage() {
                             position={{ right: "0%", bottom: "1%" }}
                             hover={{ backgroundColor: "#440088", color: "white" }}
                             transition="all 0.5s"
-                            showOnDistance={300}
+                            showOnDistance={150}
                             borderRadius={10}
                             opacity="1"
                             color="white"

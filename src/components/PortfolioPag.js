@@ -213,7 +213,7 @@ function SobremiPag() {
                       <img src="/icons/link.svg" alt="Link" />
                       <img src="/icons/web.svg" alt="Previsualizar" />
                     </div>
-                  </a><a href="react-buscador-imagenes.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                  </a><a href="/react-buscador-imagenes">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@ function SobremiPag() {
                         <img src="/icons/link.svg" alt="Link" />
                         <img src="/icons/web.svg" alt="Previsualizar" />
                       </div>
-                    </a><a href="react-buscador-letras-canciones.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href="/react-buscador-canciones">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
@@ -292,7 +292,7 @@ function SobremiPag() {
                       <img src="/icons/link.svg" alt="Link" />
                       <img src="/icons/web.svg" alt="Previsualizar" />
                     </div>
-                  </a><a href="react-app-clima.html">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                  </a><a href="/react-app-clima">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
                 </div>
               </div>
             </div>

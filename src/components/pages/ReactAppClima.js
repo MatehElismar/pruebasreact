@@ -1,14 +1,14 @@
 import React from 'react';
-import SpotiAppi from '../SpotiappApispotifyPage';
+import ReactAppClima from '../ReactAppClimaPage';
 import Footer2 from '../Footer2';
 
-function SpotiApp() {
+function ReactClima() {
     return (
         <>
-            <SpotiAppi />
+            <ReactAppClima />
             <Footer2 />
         </>
     );
 }
 
-export default SpotiApp;
+export default ReactClima;

@@ -11,6 +11,9 @@ import FirebaseAngularCompleteCrud from './components/pages/FirebaseAngularCompl
 import ChatAppRealtime from './components/pages/ChatAppRealtimeReact';
 import JuegoSnake from './components/pages/JuegoSnake';
 import SpotiApp from './components/pages/SpotiappApispotify';
+import ReactBuscadorImagenes from './components/pages/ReactBuscadorImagenes';
+import ReactBusCanciones from './components/pages/ReactBuscadorCanciones';
+import ReactClima from './components/pages/ReactAppClima';
 
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
           <Route path='/chat-app-realtime-react' component={ChatAppRealtime} />
           <Route path='/juego-snake' component={JuegoSnake} />
           <Route path='/spotiapp-apispotify' component={SpotiApp} />
+          <Route path='/react-buscador-imagenes' component={ReactBuscadorImagenes} />
+          <Route path='/react-buscador-canciones' component={ReactBusCanciones} />
+          <Route path='/react-app-clima' component={ReactClima} />
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>
