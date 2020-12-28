@@ -73,11 +73,11 @@ function WebECommercePage() {
                                 <h2 className="article__title2">Tecnologías</h2>
                                 <ul className="list">
                                     <li className="list__item">
-                                        <img src="/icons/Wordpress.svg" alt="Git" />
+                                        <img src="/icons/wordpress.svg" alt="Git" />
                                         <span>Wordpress</span>
                                     </li>
                                     <li className="list__item">
-                                        <img src="/icons/WooCommerce.svg" alt="JavaScript" />
+                                        <img src="/icons/woocommerce.svg" alt="JavaScript" />
                                         <span>WooCommerce</span>
                                     </li>
                                     <li className="list__item">
