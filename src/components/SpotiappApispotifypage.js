@@ -3,7 +3,7 @@ import BackToTop from 'react-easy-back-to-top';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import '../css/SpotiappApispotify.css';
+import '../css/PortfolioPages.css';
 
 function SpotiappApispotifypage() {
     return (
@@ -91,7 +91,7 @@ function SpotiappApispotifypage() {
                             opacity="1"
                             color="white"
                             fontSize="15px"
-                            icon="fas fa-arrow-up"
+                            icon="fas fa-chevron-up"
                         />
                     </div>
                 </main>

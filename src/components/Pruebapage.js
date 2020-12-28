@@ -26,7 +26,7 @@ function Pruebapage() {
         opacity="1"
         color="white"
         fontSize="24px"
-        icon="fas fa-arrow-up"
+        icon="fas fa-chevron-up"
       />
     </div>
 

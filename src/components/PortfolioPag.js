@@ -415,12 +415,12 @@ function SobremiPag() {
         position={{ right: "0%", bottom: "1%" }}
         hover={{ backgroundColor: "#440088", color: "white" }}
         transition="all 0.5s"
-        showOnDistance={200}
+        showOnDistance={150}
         borderRadius={10}
         opacity="1"
         color="white"
         fontSize="15px"
-        icon="fas fa-arrow-up"
+        icon="fas fa-chevron-up"
       />
       {/* JS */}
     </div>

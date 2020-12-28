@@ -3,7 +3,7 @@ import BackToTop from 'react-easy-back-to-top';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import '../css/ReactBuscadorImagenes.css';
+import '../css/PortfolioPages.css';
 
 function ReactBuscadorImagenesPage() {
     return (
@@ -82,7 +82,7 @@ function ReactBuscadorImagenesPage() {
                             opacity="1"
                             color="white"
                             fontSize="15px"
-                            icon="fas fa-arrow-up"
+                            icon="fas fa-chevron-up"
                         />
                     </div>
                 </main>

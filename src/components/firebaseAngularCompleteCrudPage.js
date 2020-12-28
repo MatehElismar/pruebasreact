@@ -1,8 +1,7 @@
 import React from 'react';
-import '../App.css';
 import BackToTop from 'react-easy-back-to-top';
 /* import { Link } from 'react-router-dom'; */
-import '../css/FirebaseAngularCompleteCrud.css';
+import '../css/PortfolioPages.css';
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -103,7 +102,7 @@ function CrudReact() {
                             opacity="1"
                             color="white"
                             fontSize="15px"
-                            icon="fas fa-arrow-up"
+                            icon="fas fa-chevron-up"
                         />
                     </div>
                 </main>
