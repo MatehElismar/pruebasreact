@@ -854,10 +854,10 @@ img {
     background: #000;
   }
   ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgb(85, 0, 170);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #fff;
+    background: rgb(145, 102, 189);
   }
   .grid,
   .index-grid {
