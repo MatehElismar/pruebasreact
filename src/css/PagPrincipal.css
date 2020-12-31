@@ -50,7 +50,22 @@ video {
   height: 300px;
   margin-bottom: 100px;
   margin-top: -175px;
+  /* animation: floating 3s ease-in-out infinite !important; */
 }
+
+/* @keyframes floating
+{
+  0%,100%
+  {
+    transform: skewY(0deg) translate(0,-10px);
+  }
+  
+  50%
+  {
+    transform: skewY(0deg) translate(0,10px);
+  }
+} */
+
 
 .linkPortfolio  {
   margin-top: 30px;
