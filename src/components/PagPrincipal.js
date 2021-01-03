@@ -5,6 +5,8 @@ import '../App.css';
 import '../css/PagPrincipal.css';
 import '../css/Portfolio.css';
 
+import imgCabecera from'../images/avatar.png';
+
 
 
 function PagPrincipal() {
@@ -12,7 +14,7 @@ function PagPrincipal() {
     <div className='hero-container'>
       {/* <video src='/videos/video-2.mp4' autoPlay loop muted />  */}
       <div>
-        <img className='img-principal fadeIn ' src={"images/avatar.png"} alt='logopagPrin' />
+        <img className='img-principal fadeIn ' src={imgCabecera} alt='Logo' />
       </div>
       <h1>Hola, Soy Alberto Peral</h1>
       <p>Me gusta crear con tecnologías web.</p>

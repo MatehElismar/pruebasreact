@@ -4,8 +4,30 @@ import '../App.css';
 import '../css/Portfolio.css';
 
 
+// Imports icons
+import projectArrow from '../icons/projects-arrow.svg';
+import iconLink from '../icons/link.svg';
+import iconGithub from '../icons/github-logo.svg';
+import iconWeb from '../icons/web.svg';
 
-function SobremiPag() {
+
+const circlesthumb = [
+  <span className="screen-bar__options" key="spanCircles">
+    <svg width={10} height={10}>
+      <circle cx={5} cy={5} r={5} fill="#FF5F57" />
+    </svg>
+    <svg width={10} height={10}>
+      <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
+    </svg>
+    <svg width={10} height={10}>
+      <circle cx={5} cy={5} r={5} fill="#28CA41" />
+    </svg>
+  </span>
+]
+
+
+
+function Portfolio() {
   return (
     <div className='container-all'>
       <div className="grid">
@@ -33,17 +55,7 @@ function SobremiPag() {
             <div className="projects fadeIn delay-6">
               <div className="project">
                 <div className="screen-bar">
-                  <span className="screen-bar__options">
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                    </svg>
-                  </span>
+                  {circlesthumb}
                   <h4 className="screen-bar__title">Crud completo Angular + firebase</h4>
                 </div>
                 <div className="main-screen">
@@ -54,31 +66,21 @@ function SobremiPag() {
                     <a href="https://github.com/PeralStudio/ejercicio-firebase" target="_blank" rel='noopener noreferrer'>
                       <span>Código</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconGithub} alt="GitHub Logo" />
                       </div>
                     </a><a href="https://angular-firebase.peralstudio.com/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/web.svg" alt="Previsualizar" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href={"/firebase-angular-complete-crud"}>Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href={"/firebase-angular-complete-crud"}>Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
               <div className="project">
                 <div className="screen-bar">
-                  <span className="screen-bar__options">
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                    </svg>
-                  </span>
+                {circlesthumb}
                   <h4 className="screen-bar__title">Chat App Real-Time React Socket.io</h4>
                 </div>
                 <div className="main-screen">
@@ -89,15 +91,15 @@ function SobremiPag() {
                     <a href="https://github.com/PeralStudio/Chat-App-RealTime-React" target="_blank" rel='noopener noreferrer'>
                       <span>Código</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconGithub} alt="GitHub Logo" />
                       </div>
                     </a><a href="https://chat-app-realtime.netlify.app/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/web.svg" alt="Previsualizar" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href="/chat-app-realtime-react">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href="/chat-app-realtime-react">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
@@ -109,17 +111,7 @@ function SobremiPag() {
             <div className="projects fadeIn delay-6">
               <div className="project">
                 <div className="screen-bar">
-                  <span className="screen-bar__options">
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                    </svg>
-                  </span>
+                {circlesthumb}
                   <h4 className="screen-bar__title">Proyecto Juego Snake JavaScript</h4>
                 </div>
                 <div className="main-screen">
@@ -131,32 +123,22 @@ function SobremiPag() {
                       <a href="https://github.com/PeralStudio/JuegoSnakeJavascript" target="_blank" rel='noopener noreferrer'>
                         <span>Código</span>
                         <div className="options__github">
-                          <img src="/icons/link.svg" alt="Link" />
-                          <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                          <img src={iconLink} alt="Link" />
+                          <img src={iconGithub} alt="GitHub Logo" />
                         </div>
                       </a><a href="https://snake.peralstudio.com" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                         <div className="options__github">
-                          <img src="/icons/link.svg" alt="Link" />
-                          <img src="/icons/web.svg" alt="Previsualizar" />
+                          <img src={iconLink} alt="Link" />
+                          <img src={iconWeb} alt="Previsualizar" />
                         </div>
-                      </a><a href="/juego-snake">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                      </a><a href="/juego-snake">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="project">
                 <div className="screen-bar">
-                  <span className="screen-bar__options">
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                    </svg>
-                    <svg width={10} height={10}>
-                      <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                    </svg>
-                  </span>
+                {circlesthumb}
                   <h4 className="screen-bar__title">Proyecto Angular consumiendo API Spotify </h4>
                 </div>
                 <div className="main-screen">
@@ -168,10 +150,10 @@ function SobremiPag() {
                       <a href="https://github.com/PeralStudio/SpotiApp-Testing" target="_blank" rel='noopener noreferrer'>
                         <span>Código</span>
                         <div className="options__github">
-                          <img src="/icons/link.svg" alt="Link" />
-                          <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                          <img src={iconLink} alt="Link" />
+                          <img src={iconGithub} alt="GitHub Logo" />
                         </div>
-                      </a><a href="/spotiapp-apispotify">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                      </a><a href="/spotiapp-apispotify">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                     </div>
                   </div>
                 </div>
@@ -184,17 +166,7 @@ function SobremiPag() {
           <div className="projects fadeIn delay-6">
             <div className="project">
               <div className="screen-bar">
-                <span className="screen-bar__options">
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                  </svg>
-                </span>
+              {circlesthumb}
                 <h4 className="screen-bar__title">REACT - Buscador de Imágenes</h4>
               </div>
               <div className="main-screen">
@@ -205,31 +177,21 @@ function SobremiPag() {
                   <a href="https://github.com/PeralStudio/BuscadorDeFotos" target="_blank" rel='noopener noreferrer'>
                     <span>Código</span>
                     <div className="options__github">
-                      <img src="/icons/link.svg" alt="Link" />
-                      <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconGithub} alt="GitHub Logo" />
                     </div>
                   </a><a href="https://peralstudio.github.io/BuscadorDeFotos/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                     <div className="options__github">
-                      <img src="/icons/link.svg" alt="Link" />
-                      <img src="/icons/web.svg" alt="Previsualizar" />
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconWeb} alt="Previsualizar" />
                     </div>
-                  </a><a href="/react-buscador-imagenes">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                  </a><a href="/react-buscador-imagenes">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                 </div>
               </div>
             </div>
             <div className="project">
               <div className="screen-bar">
-                <span className="screen-bar__options">
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                  </svg>
-                </span>
+              {circlesthumb}
                 <h4 className="screen-bar__title">REACT - Buscador Letras Canciones</h4>
               </div>
               <div className="main-screen">
@@ -241,15 +203,15 @@ function SobremiPag() {
                     <a href="https://github.com/PeralStudio/BuscadorLetrasDeCanciones" target="_blank" rel='noopener noreferrer'>
                       <span>Código</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconGithub} alt="GitHub Logo" />
                       </div>
                     </a><a href="https://peralstudio.github.io/BuscadorLetrasDeCanciones/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/web.svg" alt="Previsualizar" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href="/react-buscador-canciones">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href="/react-buscador-canciones">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
@@ -263,17 +225,7 @@ function SobremiPag() {
           <div className="projects fadeIn delay-6">
             <div className="project">
               <div className="screen-bar">
-                <span className="screen-bar__options">
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                  </svg>
-                </span>
+              {circlesthumb}
                 <h4 className="screen-bar__title">REACT - Webapp clima</h4>
               </div>
               <div className="main-screen">
@@ -284,31 +236,21 @@ function SobremiPag() {
                   <a href="https://github.com/PeralStudio/Clima-v2" target="_blank" rel='noopener noreferrer'>
                     <span>Código</span>
                     <div className="options__github">
-                      <img src="/icons/link.svg" alt="Link" />
-                      <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconGithub} alt="GitHub Logo" />
                     </div>
                   </a><a href="https://peralstudio.github.io/Clima-v2/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                     <div className="options__github">
-                      <img src="/icons/link.svg" alt="Link" />
-                      <img src="/icons/web.svg" alt="Previsualizar" />
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconWeb} alt="Previsualizar" />
                     </div>
-                  </a><a href="/react-app-clima">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                  </a><a href="/react-app-clima">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                 </div>
               </div>
             </div>
             <div className="project">
               <div className="screen-bar">
-                <span className="screen-bar__options">
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                  </svg>
-                </span>
+              {circlesthumb}
                 <h4 className="screen-bar__title">REACT - Firebase Crud - Socket.io </h4>
               </div>
               <div className="main-screen">
@@ -320,15 +262,15 @@ function SobremiPag() {
                     <a href="https://github.com/PeralStudio/Firebase-React-Crud" target="_blank" rel='noopener noreferrer'>
                       <span>Código</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/github-logo.svg" alt="GitHub Logo" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconGithub} alt="GitHub Logo" />
                       </div>
                     </a><a href="https://gracious-jones-22cf47.netlify.app/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                       <div className="options__github">
-                        <img src="/icons/link.svg" alt="Link" />
-                        <img src="/icons/web.svg" alt="Previsualizar" />
+                        <img src={iconLink} alt="Link" />
+                        <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href="/react-firebase-crud">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                    </a><a href="/react-firebase-crud">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                   </div>
                 </div>
               </div>
@@ -348,17 +290,7 @@ function SobremiPag() {
           <div className="projects fadeIn delay-6">
             <div className="project">
               <div className="screen-bar">
-                <span className="screen-bar__options">
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                  </svg>
-                </span>
+              {circlesthumb}
                 <h4 className="screen-bar__title">PeralStudio.com - Web Personal</h4>
               </div>
               <div className="main-screen">
@@ -379,17 +311,7 @@ function SobremiPag() {
             </div>
             <div className="project">
               <div className="screen-bar">
-                <span className="screen-bar__options">
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FF5F57" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#FFBD2E" />
-                  </svg>
-                  <svg width={10} height={10}>
-                    <circle cx={5} cy={5} r={5} fill="#28CA41" />
-                  </svg>
-                </span>
+              {circlesthumb}
                 <h4 className="screen-bar__title">Web e-commerce</h4>
               </div>
               <div className="main-screen">
@@ -399,10 +321,10 @@ function SobremiPag() {
                 <div className="options">
                   <a href="https://webecommerce.peralstudio.com/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                     <div className="options__github">
-                      <img src="/icons/link.svg" alt="Link" />
-                      <img src="/icons/web.svg" alt="Previsualizar" />
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconWeb} alt="Previsualizar" />
                     </div>
-                  </a><a href="/web-e-commerce">Ver más... <img src="/icons/projects-arrow.svg" alt="Learn more arrow" className="options__icon" /></a>
+                  </a><a href="/web-e-commerce">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
                 </div>
               </div>
             </div>
@@ -432,4 +354,4 @@ function SobremiPag() {
 }
 
 
-export default SobremiPag;
+export default Portfolio;
