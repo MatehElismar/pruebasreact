@@ -26,11 +26,11 @@ function ReactFirebaseCrudPage() {
                 {/* Main Section */}
                 <main className="main-section">
                     <div className="container">
-                        <div className="project-options fadeIn delay-6">
+                        <div className="project-options fadeIn delay-3">
                             <a href="https://github.com/PeralStudio/Firebase-React-Crud" target="_blank" rel="noopener noreferrer" className="button">Código <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
                             <a href="https://gracious-jones-22cf47.netlify.app/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
                         </div>
-                        <section className="projects slideshow fadeIn delay-6">
+                        <section className="projects slideshow fadeIn delay-3">
                             <Carousel>
                                 <div>
                                     <img src="/img-portfolio/crud-react-firebase.png" alt="1" />
@@ -39,7 +39,7 @@ function ReactFirebaseCrudPage() {
                             </Carousel>
 
                         </section>
-                        <section className="project-info fadeIn delay-6">
+                        <section className="project-info fadeIn delay-3">
                             <article className="article">
                                 <h2 className="article__title">Información</h2>
                                 <p className="article__text">Este es un proyecto creando un Crud con firebase. <br />Tiene las siguientes

@@ -1,5 +1,5 @@
 import React from 'react';
-/* import { Link } from 'react-router-dom'; */
+import { Link } from 'react-router-dom';
 import BackToTop from 'react-easy-back-to-top';
 import '../App.css';
 import '../css/Portfolio.css';
@@ -75,12 +75,12 @@ function Portfolio() {
                         <img src={iconLink} alt="Link" />
                         <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href={"/firebase-angular-complete-crud"}>Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                    {/* <Link
+                    </a>{/* <a href={"/firebase-angular-complete-crud"}>Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                    <Link
                       to='/firebase-angular-complete-crud'
                     >
                       Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -105,12 +105,12 @@ function Portfolio() {
                         <img src={iconLink} alt="Link" />
                         <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href="/chat-app-realtime-react">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                    {/* <Link
+                    </a>{/* <a href="/chat-app-realtime-react">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                    <Link
                       to='/chat-app-realtime-react'
                     >
                       Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -142,12 +142,12 @@ function Portfolio() {
                           <img src={iconLink} alt="Link" />
                           <img src={iconWeb} alt="Previsualizar" />
                         </div>
-                      </a><a href="/juego-snake">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                      {/* <Link
+                      </a>{/* <a href="/juego-snake">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                      <Link
                         to='/juego-snake'
                       >
                         Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                      </Link> */}
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -169,12 +169,12 @@ function Portfolio() {
                           <img src={iconLink} alt="Link" />
                           <img src={iconGithub} alt="GitHub Logo" />
                         </div>
-                      </a><a href="/spotiapp-apispotify">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                      {/* <Link
+                      </a>{/* <a href="/spotiapp-apispotify">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                      <Link
                         to='/spotiapp-apispotify'
                       >
                         Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                      </Link> */}
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -206,12 +206,12 @@ function Portfolio() {
                       <img src={iconLink} alt="Link" />
                       <img src={iconWeb} alt="Previsualizar" />
                     </div>
-                  </a><a href="/react-buscador-imagenes">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                  {/* <Link
+                  </a>{/* <a href="/react-buscador-imagenes">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                  <Link
                     to='/react-buscador-imagenes'
                   >
                     Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -237,12 +237,12 @@ function Portfolio() {
                         <img src={iconLink} alt="Link" />
                         <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href="/react-buscador-canciones">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                    {/* <Link
+                    </a>{/* <a href="/react-buscador-canciones">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                    <Link
                       to='/react-buscador-canciones'
                     >
                       Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -275,13 +275,13 @@ function Portfolio() {
                       <img src={iconLink} alt="Link" />
                       <img src={iconWeb} alt="Previsualizar" />
                     </div>
-                  </a><a href="/react-app-clima">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                  {/* <Link to={{
+                  </a>{/* <a href="/react-app-clima">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                  <Link to={{
                     pathname: '/react-app-clima',
                   }}
                   >
                     Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -307,12 +307,12 @@ function Portfolio() {
                         <img src={iconLink} alt="Link" />
                         <img src={iconWeb} alt="Previsualizar" />
                       </div>
-                    </a><a href="/react-firebase-crud">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                    {/* <Link
+                    </a>{/* <a href="/react-firebase-crud">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                    <Link
                       to='/react-firebase-crud'
                     >
                       Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -366,12 +366,12 @@ function Portfolio() {
                       <img src={iconLink} alt="Link" />
                       <img src={iconWeb} alt="Previsualizar" />
                     </div>
-                  </a><a href="/web-e-commerce">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a>
-                  {/* <Link
+                  </a>{/* <a href="/web-e-commerce">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                  <Link
                     to='/web-e-commerce'
                   >
                     Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>

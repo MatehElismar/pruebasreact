@@ -26,12 +26,12 @@ function WebECommercePage() {
                 {/* Main Section */}
                 <main className="main-section">
                     <div className="container">
-                        <div className="project-options fadeIn delay-6">
+                        <div className="project-options fadeIn delay-3">
                             {/* <a href="https://github.com/PeralStudio/BuscadorLetrasDeCanciones" target="_blank" rel="noopener noreferrer" className="button">Código
                   <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a> */}
                             <a href="https://webecommerce.peralstudio.com/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
                         </div>
-                        <section className="projects slideshow fadeIn delay-6">
+                        <section className="projects slideshow fadeIn delay-3">
 
                             <Carousel>
                                 <div>
@@ -61,7 +61,7 @@ function WebECommercePage() {
                             </Carousel>
 
                         </section>
-                        <section className="project-info fadeIn delay-6">
+                        <section className="project-info fadeIn delay-3">
                             <article className="article">
                                 <h2 className="article__title">Información</h2>
                                 <p className="article__text">Este es un proyecto sobre una pagina web E-commerce de una tienda virtual con
