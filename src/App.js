@@ -15,6 +15,7 @@ import ReactBusCanciones from './components/pages/ReactBuscadorCanciones';
 import ReactClima from './components/pages/ReactAppClima';
 import ReactFirebaseCrud from './components/pages/ReactFirebaseCrud';
 import WebECommerce from './components/pages/WebECommerce';
+import CrudFirebaseUsers from './components/pages/CrudfirebaseUsers';
 import ScrollToTop from './components/AutoScrollTop';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path='/react-app-clima' component={ReactClima} />
           <Route path='/react-firebase-crud' component={ReactFirebaseCrud} />
           <Route path='/web-e-commerce' component={WebECommerce} />
+          <Route path='/crudfirebaseusers' component={CrudFirebaseUsers} />
           <Route exact path='/' component={Home} />
           </ScrollToTop>
         </Switch>

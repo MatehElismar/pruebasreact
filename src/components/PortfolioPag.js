@@ -185,30 +185,30 @@ function Portfolio() {
       <main className="main-section">
         <div className="container">
           <div className="projects fadeIn delay-5">
-            <div className="project">
+          <div className="project">
               <div className="screen-bar">
                 {circlesthumb}
-                <h4 className="screen-bar__title">REACT - Buscador de Imágenes</h4>
+                <h4 className="screen-bar__title">Crud Users Firebase in Real Time</h4>
               </div>
               <div className="main-screen">
-                <img src="/img-portfolio/buscadordefotos.png" alt="Buscador de imágenes" />
+                <img src="/images/crudfirebaseusers.png" alt="Buscador de imágenes" />
               </div>
               <div className="project__options">
                 <div className="options">
-                  <a href="https://github.com/PeralStudio/BuscadorDeFotos" target="_blank" rel='noopener noreferrer'>
+                  <a href="https://github.com/PeralStudio/CrudUsersFirebase" target="_blank" rel='noopener noreferrer'>
                     <span>Código</span>
                     <div className="options__github">
                       <img src={iconLink} alt="Link" />
                       <img src={iconGithub} alt="GitHub Logo" />
                     </div>
-                  </a><a href="https://peralstudio.github.io/BuscadorDeFotos/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
+                  </a><a href="https://crudfirebaseusers.peralstudio.com/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
                     <div className="options__github">
                       <img src={iconLink} alt="Link" />
                       <img src={iconWeb} alt="Previsualizar" />
                     </div>
                   </a>{/* <a href="/react-buscador-imagenes">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
                   <Link
-                    to='/react-buscador-imagenes'
+                    to='/crudfirebaseusers'
                   >
                     Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
                   </Link>
@@ -320,6 +320,43 @@ function Portfolio() {
           </div>
         </div><br /><br /><br />
       </main>
+      <main className="main-section">
+          <div className="container">
+            <div className="projects fadeIn delay-3">
+            <div className="project">
+              <div className="screen-bar">
+                {circlesthumb}
+                <h4 className="screen-bar__title">REACT - Buscador de Imágenes</h4>
+              </div>
+              <div className="main-screen">
+                <img src="/img-portfolio/buscadordefotos.png" alt="Buscador de imágenes" />
+              </div>
+              <div className="project__options">
+                <div className="options">
+                  <a href="https://github.com/PeralStudio/BuscadorDeFotos" target="_blank" rel='noopener noreferrer'>
+                    <span>Código</span>
+                    <div className="options__github">
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconGithub} alt="GitHub Logo" />
+                    </div>
+                  </a><a href="https://peralstudio.github.io/BuscadorDeFotos/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
+                    <div className="options__github">
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconWeb} alt="Previsualizar" />
+                    </div>
+                  </a>{/* <a href="/react-buscador-imagenes">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                  <Link
+                    to='/react-buscador-imagenes'
+                  >
+                    Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+              {/* Hueco para un proyecto */}
+            </div>
+          </div><br /><br /><br />
+        </main>
       {/* Header2 */}
       <header className="header">
         <div className="header__title">
