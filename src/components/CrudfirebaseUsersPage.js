@@ -43,12 +43,12 @@ function CrudfirebaseUsersPage() {
                         <section className="project-info fadeIn delay-3">
                             <article className="article">
                                 <h2 className="article__title">Información</h2>
-                                <p className="article__text">Este es un proyecto creando una crud para gestionar usuarios usando Javascript y Firebase como base de datos en tiempo real.
+                                <p className="article__text">Este es un proyecto creando un crud para gestionar usuarios usando Javascript y Firebase como base de datos en tiempo real.
                   </p>
                                 <p className="article__text">El proyecto aún está en desarrollo. Agregaré algunas características.</p>
                             </article>
                             <article className="article">
-                                <p className="article__text">Tiene las siguientes
+                                <p className="article__text">Permite las siguientes
                                 opciones:
                                 </p><li className="list__item">
                                     <img src="/icons/menu-arrow.svg" alt="Git" />

@@ -124,9 +124,9 @@ video {
 }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .hero-container > h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: -90px;
   }
 
@@ -153,6 +153,39 @@ video {
 
   .linkPortfolio {
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 360px) {
+  .hero-container > h1 {
+    font-size: 25px;
+    margin-top: -90px;
+  }
+
+  .hero-container > p {
+    font-size: 15px;
+  }
+
+  
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .img-principal {
+    width: 150px;
+    height: 180px;
+    margin-bottom: 100px;
+  }
+
+  .linkPortfolio {
+    text-align: center;
+    font-size: 10px;
 }
 }
