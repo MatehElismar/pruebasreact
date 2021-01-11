@@ -16,6 +16,7 @@ import ReactClima from './components/pages/ReactAppClima';
 import ReactFirebaseCrud from './components/pages/ReactFirebaseCrud';
 import WebECommerce from './components/pages/WebECommerce';
 import CrudFirebaseUsers from './components/pages/CrudfirebaseUsers';
+import DynoGame from './components/pages/DynoGame';
 import ScrollToTop from './components/AutoScrollTop';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path='/react-firebase-crud' component={ReactFirebaseCrud} />
           <Route path='/web-e-commerce' component={WebECommerce} />
           <Route path='/crudfirebaseusers' component={CrudFirebaseUsers} />
+          <Route path='/dynogame' component={DynoGame} />
           <Route exact path='/' component={Home} />
           </ScrollToTop>
         </Switch>

@@ -353,7 +353,36 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-              {/* Hueco para un proyecto */}
+            <div className="project">
+              <div className="screen-bar">
+                {circlesthumb}
+                <h4 className="screen-bar__title">Juego Dyno Google JavaScript</h4>
+              </div>
+              <div className="main-screen">
+                <img src="/images/dynogame.png" alt="dynogame" />
+              </div>
+              <div className="project__options">
+                <div className="options">
+                  <a href="https://github.com/PeralStudio/DynoGame" target="_blank" rel='noopener noreferrer'>
+                    <span>Código</span>
+                    <div className="options__github">
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconGithub} alt="GitHub Logo" />
+                    </div>
+                  </a><a href="https://dyno.peralstudio.com/" target="_blank" rel='noopener noreferrer'><span>Previsualizar</span>
+                    <div className="options__github">
+                      <img src={iconLink} alt="Link" />
+                      <img src={iconWeb} alt="Previsualizar" />
+                    </div>
+                  </a>{/* <a href="/react-buscador-imagenes">Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" /></a> */}
+                  <Link
+                    to='/dynogame'
+                  >
+                    Ver más... <img src={projectArrow} alt="Learn more arrow" className="options__icon" />
+                  </Link>
+                </div>
+              </div>
+            </div>
             </div>
           </div><br /><br /><br />
         </main>
