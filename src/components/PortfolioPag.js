@@ -359,7 +359,7 @@ function Portfolio() {
                 <h4 className="screen-bar__title">Juego Dyno Google JavaScript</h4>
               </div>
               <div className="main-screen">
-                <img src="/images/dynogame.png" alt="dynogame" />
+                <img src="images/dynoGameGif.gif" alt="dyno" />
               </div>
               <div className="project__options">
                 <div className="options">

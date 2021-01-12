@@ -33,7 +33,7 @@ function DynoGamePage() {
                         <section className="projects slideshow fadeIn delay-3">
                             <Carousel>
                                 <div>
-                                    <img src="/images/dynogame.png" alt="dyno" />
+                                    <img src="images/dynoGameGif.gif" alt="dyno" />
                                     <p className="legend">Legend 1</p>
                                 </div>
                             </Carousel>
