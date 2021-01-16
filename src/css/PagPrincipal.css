@@ -92,6 +92,13 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+
+  .navbar-logo {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+  }
+
   .hero-container > h1 {
     font-size: 30px;
     margin-top: -90px;
@@ -158,6 +165,13 @@ video {
 }
 
 @media screen and (max-width: 360px) {
+
+  .navbar-logo {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+  }
+
   .hero-container > h1 {
     font-size: 25px;
     margin-top: -90px;
@@ -166,8 +180,6 @@ video {
   .hero-container > p {
     font-size: 15px;
   }
-
-  
 
   .btn-mobile {
     display: block;
