@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactFirebase from '../ReactFirebaseCrudPage';
+import ReactFirebase from '../Projects/ReactFirebaseCrudPage';
 import Footer2 from '../Footer2';
 
 function ReactFirebaseCrud() {

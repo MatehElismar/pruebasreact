@@ -17,7 +17,7 @@ import ReactFirebaseCrud from './components/pages/ReactFirebaseCrud';
 import WebECommerce from './components/pages/WebECommerce';
 import CrudFirebaseUsers from './components/pages/CrudfirebaseUsers';
 import DynoGame from './components/pages/DynoGame';
-import ScrollToTop from './components/AutoScrollTop';
+import AutoScrollToTop from './components/AutoScrollTop/AutoScrollTop';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
       <Router primary={false}>
         <Navbar />
         <Switch>
-          <ScrollToTop path="/">
+          <AutoScrollToTop path="/">
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/productos' component={Products} />
           <Route path='/prueba' component={Prueba} />
@@ -41,7 +41,7 @@ function App() {
           <Route path='/crudfirebaseusers' component={CrudFirebaseUsers} />
           <Route path='/dynogame' component={DynoGame} />
           <Route exact path='/' component={Home} />
-          </ScrollToTop>
+          </AutoScrollToTop>
         </Switch>
       </Router>
 

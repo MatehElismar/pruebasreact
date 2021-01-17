@@ -3,9 +3,9 @@ import BackToTop from 'react-easy-back-to-top';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import '../css/PortfolioPages.css';
+import '../../css/PortfolioPages.css';
 
-function chatAppRealtimeReactPage() {
+function ReactBuscadorImagenesPage() {
     return (
         <div className="containerall">
             <div className="background" />
@@ -15,34 +15,27 @@ function chatAppRealtimeReactPage() {
                 {/* Header */}
                 <header className="header">
                     <div className="header__title">
-                        <h1 className="slideUp">Chat App Real-Time React Socket.io</h1>
+                        <h1 className="slideUp">REACT - Buscador de Imágenes</h1>
                     </div>
                 </header>
                 <div className="container pinned">
                     <div className="pinned-message">
-                        <p className="pinned-message__text slideUp delay-2">ChatApp creado en React usando Socket.io</p>
+                        <p className="pinned-message__text slideUp delay-2">App Buscador de imágenes usando React.</p>
                     </div>
                 </div>
                 {/* Main Section */}
                 <main className="main-section">
                     <div className="container">
                         <div className="project-options fadeIn delay-3">
-                            <a href="https://github.com/PeralStudio/Chat-App-RealTime-React" target="_blank" rel="noopener noreferrer" className="button">Código <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
-                            <a href="https://chat-app-realtime.netlify.app/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
+                            <a href="https://github.com/PeralStudio/BuscadorDeFotos" target="_blank" rel="noopener noreferrer" className="button">Código
+                  <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
+                            <a href="https://peralstudio.github.io/BuscadorDeFotos/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
                         </div>
                         <section className="projects slideshow fadeIn delay-3">
                             <Carousel>
                                 <div>
-                                    <img src="/img-portfolio/ss1.png" alt="1" />
+                                    <img src="/img-portfolio/buscadordefotos.png" alt="1" />
                                     <p className="legend">Legend 1</p>
-                                </div>
-                                <div>
-                                    <img src="/img-portfolio/ss2.png" alt="2" />
-                                    <p className="legend">Legend 2</p>
-                                </div>
-                                <div>
-                                    <img src="/img-portfolio/ss3.png" alt="3" />
-                                    <p className="legend">Legend 3</p>
                                 </div>
                             </Carousel>
 
@@ -50,7 +43,8 @@ function chatAppRealtimeReactPage() {
                         <section className="project-info fadeIn delay-3">
                             <article className="article">
                                 <h2 className="article__title">Información</h2>
-                                <p className="article__text">Este es un proyecto creando un chat con respuesta en tiempo real usando Socket.io.
+                                <p className="article__text">Este es un proyecto sobre una WebApp creada con REACT, consumiendo una API y
+                                filtrando con consultas query segun la busqueda.
                   </p>
                                 <p className="article__text">El proyecto aún está en desarrollo. Agregaré algunas características.</p>
                             </article>
@@ -63,7 +57,7 @@ function chatAppRealtimeReactPage() {
                                     </li>
                                     <li className="list__item">
                                         <img src="/icons/js-logo.svg" alt="JavaScript" />
-                                        <span>JavaScript</span>
+                                        <span>Javascript</span>
                                     </li>
                                     <li className="list__item">
                                         <img src="/icons/html5-logo.svg" alt="HTML5" />
@@ -72,14 +66,6 @@ function chatAppRealtimeReactPage() {
                                     <li className="list__item">
                                         <img src="/icons/css-logo.svg" alt="CSS3" />
                                         <span>CSS</span>
-                                    </li>
-                                    <li className="list__item">
-                                        <img src="/icons/heroku.svg" alt="CSS3" />
-                                        <span>heroku</span>
-                                    </li>
-                                    <li className="list__item">
-                                        <img src="/icons/socketio.svg" alt="JavaScript" />
-                                        <span>Sokect.io</span>
                                     </li>
                                 </ul>
                             </article>
@@ -105,4 +91,4 @@ function chatAppRealtimeReactPage() {
     );
 }
 
-export default chatAppRealtimeReactPage;
+export default ReactBuscadorImagenesPage;

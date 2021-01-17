@@ -3,9 +3,9 @@ import BackToTop from 'react-easy-back-to-top';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import '../css/PortfolioPages.css';
+import '../../css/PortfolioPages.css';
 
-function SpotiappApispotifypage() {
+function chatAppRealtimeReactPage() {
     return (
         <div className="containerall">
             <div className="background" />
@@ -15,36 +15,33 @@ function SpotiappApispotifypage() {
                 {/* Header */}
                 <header className="header">
                     <div className="header__title">
-                        <h1 className="slideUp">SpotiApp - Proyecto Angular consumiendo API Spotify</h1>
+                        <h1 className="slideUp">Chat App Real-Time React Socket.io</h1>
                     </div>
                 </header>
                 <div className="container pinned">
                     <div className="pinned-message">
-                        <p className="pinned-message__text slideUp delay-2">Proyecto Angular consumiendo API Spotify.</p>
+                        <p className="pinned-message__text slideUp delay-2">ChatApp creado en React usando Socket.io</p>
                     </div>
                 </div>
                 {/* Main Section */}
                 <main className="main-section">
                     <div className="container">
                         <div className="project-options fadeIn delay-3">
-                            <a href="https://github.com/PeralStudio/SpotiApp-Testing" target="_blank" rel="noopener noreferrer" className="button">Código <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
+                            <a href="https://github.com/PeralStudio/Chat-App-RealTime-React" target="_blank" rel="noopener noreferrer" className="button">Código <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
+                            <a href="https://chat-app-realtime.netlify.app/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
                         </div>
                         <section className="projects slideshow fadeIn delay-3">
                             <Carousel>
                                 <div>
-                                    <img src="/img-portfolio/spoti1.png" alt="1" />
+                                    <img src="/img-portfolio/ss1.png" alt="1" />
                                     <p className="legend">Legend 1</p>
                                 </div>
                                 <div>
-                                    <img src="/img-portfolio/spoti2.png" alt="2" />
+                                    <img src="/img-portfolio/ss2.png" alt="2" />
                                     <p className="legend">Legend 2</p>
                                 </div>
                                 <div>
-                                    <img src="/img-portfolio/spoti3.png" alt="3" />
-                                    <p className="legend">Legend 3</p>
-                                </div>
-                                <div>
-                                    <img src="/img-portfolio/spoti4.png" alt="3" />
+                                    <img src="/img-portfolio/ss3.png" alt="3" />
                                     <p className="legend">Legend 3</p>
                                 </div>
                             </Carousel>
@@ -61,12 +58,12 @@ function SpotiappApispotifypage() {
                                 <h2 className="article__title2">Tecnologías</h2>
                                 <ul className="list">
                                     <li className="list__item">
-                                        <img src="/icons/angular.svg" alt="Git" />
-                                        <span>Angular</span>
+                                        <img src="/icons/react.svg" alt="Git" />
+                                        <span>REACT</span>
                                     </li>
                                     <li className="list__item">
-                                        <img src="/icons/typescript.svg" alt="JavaScript" />
-                                        <span>Typescript</span>
+                                        <img src="/icons/js-logo.svg" alt="JavaScript" />
+                                        <span>JavaScript</span>
                                     </li>
                                     <li className="list__item">
                                         <img src="/icons/html5-logo.svg" alt="HTML5" />
@@ -75,6 +72,14 @@ function SpotiappApispotifypage() {
                                     <li className="list__item">
                                         <img src="/icons/css-logo.svg" alt="CSS3" />
                                         <span>CSS</span>
+                                    </li>
+                                    <li className="list__item">
+                                        <img src="/icons/heroku.svg" alt="CSS3" />
+                                        <span>heroku</span>
+                                    </li>
+                                    <li className="list__item">
+                                        <img src="/icons/socketio.svg" alt="JavaScript" />
+                                        <span>Sokect.io</span>
                                     </li>
                                 </ul>
                             </article>
@@ -100,4 +105,4 @@ function SpotiappApispotifypage() {
     );
 }
 
-export default SpotiappApispotifypage;
+export default chatAppRealtimeReactPage;

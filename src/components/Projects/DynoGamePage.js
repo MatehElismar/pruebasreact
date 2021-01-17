@@ -3,9 +3,9 @@ import BackToTop from 'react-easy-back-to-top';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import '../css/PortfolioPages.css';
+import '../../css/PortfolioPages.css';
 
-function ReactBuscadorImagenesPage() {
+function DynoGamePage() {
     return (
         <div className="containerall">
             <div className="background" />
@@ -15,26 +15,25 @@ function ReactBuscadorImagenesPage() {
                 {/* Header */}
                 <header className="header">
                     <div className="header__title">
-                        <h1 className="slideUp">REACT - Buscador de Imágenes</h1>
+                        <h1 className="slideUp">Juego Dyno Google JavaScript</h1>
                     </div>
                 </header>
                 <div className="container pinned">
                     <div className="pinned-message">
-                        <p className="pinned-message__text slideUp delay-2">App Buscador de imágenes usando React.</p>
+                        <p className="pinned-message__text slideUp delay-2">Proyecto Juego Dyno offline Google.</p>
                     </div>
                 </div>
                 {/* Main Section */}
                 <main className="main-section">
                     <div className="container">
                         <div className="project-options fadeIn delay-3">
-                            <a href="https://github.com/PeralStudio/BuscadorDeFotos" target="_blank" rel="noopener noreferrer" className="button">Código
-                  <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
-                            <a href="https://peralstudio.github.io/BuscadorDeFotos/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
+                            <a href="https://github.com/PeralStudio/DynoGame" target="_blank" rel="noopener noreferrer" className="button">Código <img src="/icons/github-logo.svg" alt="GitHub Logo" /></a>
+                            <a href="https://dyno.peralstudio.com/" target="_blank" rel="noopener noreferrer" className="button">Previsualizar <img src="/icons/menu-arrow.svg" alt="Preview arrow" /></a>
                         </div>
                         <section className="projects slideshow fadeIn delay-3">
                             <Carousel>
                                 <div>
-                                    <img src="/img-portfolio/buscadordefotos.png" alt="1" />
+                                    <img src="images/dynoGameGif.gif" alt="dyno" />
                                     <p className="legend">Legend 1</p>
                                 </div>
                             </Carousel>
@@ -43,21 +42,16 @@ function ReactBuscadorImagenesPage() {
                         <section className="project-info fadeIn delay-3">
                             <article className="article">
                                 <h2 className="article__title">Información</h2>
-                                <p className="article__text">Este es un proyecto sobre una WebApp creada con REACT, consumiendo una API y
-                                filtrando con consultas query segun la busqueda.
+                                <p className="article__text">Este es un proyecto sobre el juego T-rex de google realizado con JavaScript.
                   </p>
-                                <p className="article__text">El proyecto aún está en desarrollo. Agregaré algunas características.</p>
+                                <p className="article__text">El proyecto aún está en desarrollo. Agregaré algunas características nuevas.</p>
                             </article>
                             <article className="article2">
                                 <h2 className="article__title2">Tecnologías</h2>
                                 <ul className="list">
                                     <li className="list__item">
-                                        <img src="/icons/react.svg" alt="Git" />
-                                        <span>REACT</span>
-                                    </li>
-                                    <li className="list__item">
                                         <img src="/icons/js-logo.svg" alt="JavaScript" />
-                                        <span>Javascript</span>
+                                        <span>JavaScript</span>
                                     </li>
                                     <li className="list__item">
                                         <img src="/icons/html5-logo.svg" alt="HTML5" />
@@ -91,4 +85,4 @@ function ReactBuscadorImagenesPage() {
     );
 }
 
-export default ReactBuscadorImagenesPage;
+export default DynoGamePage;

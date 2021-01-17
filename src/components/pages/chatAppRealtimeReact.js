@@ -1,5 +1,5 @@
 import React from 'react';
-import ChatAppReal from '../ChatAppRealtimeReactPage';
+import ChatAppReal from '../Projects/ChatAppRealtimeReactPage';
 import Footer2 from '../Footer2';
 
 function ChatAppRealtime() {

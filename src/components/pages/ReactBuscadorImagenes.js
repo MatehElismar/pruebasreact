@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactBuscador from '../ReactBuscadorImagenesPage';
+import ReactBuscador from '../Projects/ReactBuscadorImagenesPage';
 import Footer2 from '../Footer2';
 
 function ReactBuscadorImagenes() {

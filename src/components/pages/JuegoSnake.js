@@ -1,5 +1,5 @@
 import React from 'react';
-import JuegoSnakepage from '../JuegoSnakePage';
+import JuegoSnakepage from '../Projects/JuegoSnakePage';
 import Footer2 from '../Footer2';
 
 function JuegoSnake() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import WebECommercePAge from '../WebECommercePage';
+import WebECommercePAge from '../Projects/WebECommercePage';
 import Footer2 from '../Footer2';
 
 function WebECommerce() {

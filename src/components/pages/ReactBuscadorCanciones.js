@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactBuscadorCanciones from '../ReactBuscadorCancionesPage';
+import ReactBuscadorCanciones from '../Projects/ReactBuscadorCancionesPage';
 import Footer2 from '../Footer2';
 
 function ReactBusCanciones() {

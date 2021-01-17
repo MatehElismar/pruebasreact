@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import CrudReact from '../FirebaseAngularCompleteCrudPage';
+import CrudReact from '../Projects/FirebaseAngularCompleteCrudPage';
 import Footer2 from '../Footer2';
 
 function FirebaseAngularCompleteCrud() {
